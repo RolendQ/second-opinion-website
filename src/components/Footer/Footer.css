@@ -1,0 +1,38 @@
+.footer__container {
+	background-color: var(--menu-bg);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer__top {
+	display:  flex;
+	flex-direction: horizontal;
+	gap: 10rem;
+}
+
+.footer__bottom {
+	padding: 1rem;
+	border-width: 2px;
+	border-top: solid;
+	border-color: white;
+}
+
+.footer__left {
+	display:  flex;
+	padding-bottom: 0.5rem;
+	flex-direction: column;
+	margin-left: 20rem;
+}
+
+.footer__right {
+	display:  flex;
+	padding-bottom: 0.5rem;
+	flex-direction: column;
+	margin-left: 20rem;
+}
+
+
+.footer__text {
+	color: white;
+}
