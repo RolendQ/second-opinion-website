@@ -3,10 +3,9 @@ import Body from '../components/Body/Body'
 import Section from '../components/Section/Section'
 import Footer from '../components/Footer/Footer'
 
-const App = () => {
+const Home = () => {
   return (
     <div className='page'>
-      <Nav />
       <Body />
       <Section />
       <Footer />
@@ -14,4 +13,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Home

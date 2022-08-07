@@ -1,6 +1,7 @@
 :root{
     /* Theme 1 */
-    --menu-bg: #e2147e;
+    --light-menu-bg: #e2147e;
+    --menu-bg: rgb(142,11,79);
     --light-text: #ffffff;
     --dark-text: #000000;
     --page-bg: #f8e0ee;

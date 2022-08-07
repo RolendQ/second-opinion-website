@@ -38,11 +38,12 @@
     border-style: solid;
     display: flex;
     flex-direction: row;
+    column-gap: 2rem;
     padding: 1.5rem;
 }
 
 .section__title {
-    background-color: var(--menu-bg);
+    background-color: var(--light-menu-bg);
     color: white;
     font-size: 2rem;
     width: 20rem;
