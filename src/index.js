@@ -3,12 +3,18 @@
 //import './index.css'
 
 //ReactDOM.render(<App/>, document.querySelector("#root"));
-import ReactDOM from "react-dom";
+//import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Upload from "./pages/Upload";
 import Layout from "./pages/Layout";
+import Results from "./pages/Results";
 import './index.css'
+import "./i18n";
+import { createRoot } from 'react-dom/client';
+import React from 'react';
 
 export default function App() {
   return (
@@ -16,11 +22,21 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="register" element={<Register />} />
           <Route path="login" element={<Login />} />
+          <Route path="upload" element={<Upload />} />
+          <Route path="results" element={<Results />} />
         </Route>
       </Routes>
     </BrowserRouter>
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const root = createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+);
+
+//ReactDOM.render(<App />, document.getElementById("root"));

@@ -1,3 +1,6 @@
+### "npm install i18next react-i18next --save"
+### "npm install i18next-xhr-backend" or http
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

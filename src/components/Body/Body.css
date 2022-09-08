@@ -7,6 +7,7 @@
 
 .body__icon {
     width: 6rem;
+    margin-left: 30%;
     height: auto;
 }
 
@@ -38,15 +39,16 @@
 .body__button1 {
     background-color: var(--light-text);
     color: var(--menu-bg);
+    border-color: transparent;
     width: 85%;
     padding: 1rem 2rem;
-    border-radius: 1.3rem;
 }
 
 .body__button2 {
     background-color: var(--menu-bg);
+    border-color: var(--light-text);
     color: var(--light-text);
     padding: 1rem 2rem;
+    margin-bottom: 2rem;
     width: 85%;
-    border-radius: 1.3rem;
 }

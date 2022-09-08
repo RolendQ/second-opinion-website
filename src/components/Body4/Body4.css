@@ -1,0 +1,77 @@
+.body4__container {
+    background-color: #414854;
+}
+
+.body_panels {
+    display: flex;
+    flex-direction: column;
+}
+
+.body__panel {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    border-color: gray;
+    border-width: 0rem 0rem 0.2rem 0rem;
+    border-style: solid;
+}
+
+.body__panelbody {
+    display: flex;
+    flex-direction: row;
+}
+
+.body__paneltitle {
+    color: var(--light-text);
+    margin-left: 6rem;
+}
+
+.body__panelsubtitle {
+    color: var(--light-text);
+    margin-left: 6rem;
+}
+
+.body__panelframe {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    gap: 2rem;
+}
+
+.body__panelframetitle {
+    color: var(--light-text);
+    font-size: 1.5rem;
+}
+
+.body__panelframeimg {
+
+}
+
+.body__paneltext {
+    color: var(--light-text);
+    border-color: #707377;
+    padding: 1rem;
+    background-color: #252930;
+    margin-left: 4rem; 
+    width: 85%; 
+}
+
+.body__backbutton {
+    color: var(--light-text);
+    margin-left: 2rem;
+    background-color: #252930;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+}
+
+.body__lastbutton {
+    color: var(--light-text);
+    position: absolute;
+    background-color: #252930;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    margin-top: -4rem;
+    right: 10%;
+}

@@ -1,13 +1,13 @@
 import Footer from '../components/Footer/Footer'
-import Body2 from '../components/Body2/Body2'
+import Body4 from '../components/Body4/Body4'
 
-const Login = () => {
+const Results = () => {
   return (
     <div className='page'>
-      <Body2 mode='login' />
+      <Body4 />
       <Footer full='false'/>
     </div>
   )
 }
 
-export default Login
+export default Results

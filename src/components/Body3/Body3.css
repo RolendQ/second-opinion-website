@@ -27,7 +27,6 @@
     max-width: 80%;
     font-size: 1.6rem;
     color:  var(--light-text);
-    font-family: cursive;
 }
 
 .body__corner {
@@ -59,7 +58,7 @@
     height: 80%;
 }
 
-.login__form {
+.upload__form {
     margin-left: 4rem;
     padding-top: 4rem;
     display: flex;
@@ -69,23 +68,20 @@
     margin-bottom: 4rem;
 }
 
-.login__input {
-    height: 3rem;
-    width: 85%;
-    font-size: 1.5rem;
-    border-radius: 1.1rem;
-    padding-left: 1rem;
-    border: none;
-    background-color: var(--input);
-}
-
-.login__submit {
+.upload__submit {
     background-color: var(--light-menu-bg);
     color: var(--light-text);
     padding: 1rem 2rem;
     width: 90%;
     font-size: 1.5rem;
     border-radius: 1.1rem;
+}
+
+.body__upload {
+    color: white;
+    margin-left: 15%;
+    cursor: pointer;
+    margin-top: 1rem;
 }
 
 .login__button2 {
@@ -96,11 +92,6 @@
     width: 85%;
     font-size: 1.1rem;
     border-color: transparent;
-}
-
-.login__code {
-    float: right;
-    margin-right: 4rem;
 }
 
 .triangle-element {

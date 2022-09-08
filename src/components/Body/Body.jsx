@@ -3,29 +3,35 @@ import Nav from '../Nav/Nav.jsx'
 import './Body.css'
 import COVER from '../../assets/page1_cover.jpg'
 import ICON from '../../assets/icon_nobg.png'
+import { Link } from "react-router-dom";
 
-const Gallery = () => {
+import { useTranslation } from "react-i18next";
+
+const Body = () => {
+  const { t } = useTranslation();
   return (
     <div className='body__container'>
         <div className='body__left'>
             <img className='body__icon' src={ICON} alt=''></img>
-            <p className='body__desc'> According to statistics, more than 40,000 breast cancer patients are missed
-                each year in the United States, due to manual interpretation errors. Through our
-                second opinion service of human–machine integration service, you can avoid the 
-                worry of missed diagnosis, all of which does not take more than 24 hours</p>
+            <p className='body__desc'> {t("p1.desc1")} </p>
+            <p className='body__desc'> {t("p1.desc2")} </p>
             <div className="body__buttons">
-                <button className='body__button1'> Button 1 Text </button>
+                <Link to='/register'>
+                            <button className='body__button1'> {t("p1.button1")} </button>
+                </Link>
                 <br />
                 <br />
-                <button className='body__button2'> Button 2 Text </button>
+                <Link to='/login'>
+                    <button className='body__button2'> {t("p1.button2")} </button>
+                </Link>
             </div>
         </div>
         <div className='body__right'>
             <Nav />
-            <img className='body__cover' src={COVER} alt=''></img>
+            <img className='body__cover' src={COVER} alt='' />
         </div>
     </div>
   )
 }
 
-export default Gallery
+export default Body

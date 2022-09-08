@@ -5,6 +5,8 @@
     --light-text: #ffffff;
     --dark-text: #000000;
     --page-bg: #f8e0ee;
+    --input: #e8e8e8;
+    white-space: pre-line;
 }
 
 .page{
