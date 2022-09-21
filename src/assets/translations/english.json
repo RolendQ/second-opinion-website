@@ -8,6 +8,9 @@
   "p1.label3": "Breast MRI Image Diagnosis",
   "p1.label4": "Breast Pathology Diagnosis",
   "p1.label5": "Pink Ribbon Alliance",
+  "p1.section1": "Chinese MDT Experts",
+  "p1.section2": "Japanese MDT Experts",
+  "p1.section3": "American MDT Experts",
   "p2.button1" : "Back",
   "p2.desc": "Login with Wechat QR code OR Login with phone verification code",
   "p2.label1": "Enter phone number",
@@ -43,5 +46,11 @@
   "p1.info6": "Professor\nDirector, Department of Mastology, Nippon Medical School Hospital\nClinical Interests: Breast Surgery, Breast Cancer\nQualification: Expert in Breast Cancer treatment, listed in “Japanese Famous Doctors Recommended by Famous Doctors”",
   "p1.info7": "M.D., M.P.H.\nDirector, Clinical Research (Faulkner Hospital), Dana-Farber Cancer Institute \nAssociate Professor, Medicine, Harvard Medical School\nMember, Breast Cancer, Dana-Farber/Harvard Cancer Center Program",
   "p1.info8": "M.D.\nThe Suzy Yuan-Huey Hung Endowed Professor of Medical Oncology at the Stanford University School of Medicine\nMember, Bio-X\nMember, Stanford Cancer Institute\nMedical Director of the Stanford Clinical Translational Research Unit, Stanford School of Medicine\nAssociate Dean for Clinical Research Quality, Stanford School of Medicine\nAssociate Director for Clinical Research, Stanford Cancer Institute ",
-  "p1.info9": "M.D.\nDirector of Thoracic Oncology, Lifespan Cancer Institute\nFellow of American Society of Clinical Oncology (ASCO)\nOncologist affiliated with multiple hospitals in Rhode Island, including Nantucket Cottage Hospital and Rhode Island Hospital"
+  "p1.info9": "M.D.\nDirector of Thoracic Oncology, Lifespan Cancer Institute\nFellow of American Society of Clinical Oncology (ASCO)\nOncologist affiliated with multiple hospitals in Rhode Island, including Nantucket Cottage Hospital and Rhode Island Hospital",
+  "ft.label1": "Second Opinion Services:",
+  "ft.label2": "X-ray Result Consultation | Ultrasound Result Consultation",
+  "ft.label3": "MRI Result Consultation | Breast Cancer Pathology Consultation",
+  "ft.label4": "Pinkribbon Alliances:",
+  "ft.label5": "Global Roses Philanthropic Organization | Hong Kong Project Rose Foundation",
+  "ft.label6": "Chinese Anti-Cancer Association | Medical Imaging of Chinese Medical Association"
 }

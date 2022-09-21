@@ -9,7 +9,9 @@ const Body3 = () => {
   return (
     <div className='body__container'>
         <div className='body__left'>
-            <button className='body__back'>{t("p2.button1")}</button>
+            <Link to="/">
+                <button className='body__back'>{t("p2.button1")}</button>
+            </Link>
             <p className='body__desc'></p>
         </div>
         <div className='body__right'>

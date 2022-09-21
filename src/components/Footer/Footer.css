@@ -8,10 +8,12 @@
 .footer__top {
 	display:  flex;
 	flex-direction: horizontal;
-	gap: 10rem;
+	gap: 3rem;
 	border-width: 2px;
 	border-top: solid;
 	border-color: white;
+	text-align: left;
+	padding-top: 1rem;
 }
 
 .footer__bottom {
@@ -25,17 +27,26 @@
 	display:  flex;
 	padding-bottom: 0.5rem;
 	flex-direction: column;
-	margin-left: 20rem;
+	margin-left: 10rem;
 }
 
 .footer__right {
 	display:  flex;
 	padding-bottom: 0.5rem;
 	flex-direction: column;
-	margin-left: 20rem;
+	margin-left: 3rem;
+}
+
+.footer__lang {
+	padding: 0.5rem;
 }
 
 
 .footer__text {
 	color: white;
+}
+
+.footer__textindent {
+	color: white;
+	margin-left: 2rem;
 }

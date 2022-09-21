@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 
 const Footer = ({full}) => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const changeLanguage = (event) => {
     i18n.changeLanguage(event.target.value);
@@ -14,17 +14,17 @@ const Footer = ({full}) => {
     <div className='footer__container'>
       <div className='footer__top'>
         <div className='footer__left'>
-          <span className='footer__text'> Left Text 1 </span>
-          <span className='footer__text'> Left Text 2 </span>
-          <span className='footer__text'> Left Text 3 </span>
+          <span className='footer__text'> {t("ft.label1")} </span>
+          <span className='footer__textindent'> {t("ft.label2")} </span>
+          <span className='footer__textindent'> {t("ft.label3")} </span>
         </div>
         <div className='footer__right'>
-          <span className='footer__text'> Right Text 1 </span>
-          <span className='footer__text'> Right Text 2 </span>
-          <span className='footer__text'> Right Text 3 </span>
+          <span className='footer__text'> {t("ft.label4")} </span>
+          <span className='footer__textindent'> {t("ft.label5")} </span>
+          <span className='footer__textindent'> {t("ft.label6")} </span>
         </div>
-        <div onChange={changeLanguage}>
-          <p> {i18n.language} </p>
+        <div className='footer__lang' onChange={changeLanguage}>
+          <p> Selected Language: {i18n.language} </p>
           <input type="radio" value="en" name="language" defaultChecked={i18n.language === 'en'} /> English
           <input type="radio" value="cn" name="language" defaultChecked={i18n.language === 'cn'} /> Chinese
         </div>

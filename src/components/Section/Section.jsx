@@ -100,7 +100,7 @@ const Container = () => {
   return (
     <div className='section__container'>
       <div className='section__area1'>
-        <span className='section__title'> Section Title 1 </span>
+        <span className='section__title'> {t('p1.section1')} </span>
         <div className='section__grid'>
           <div className='section__square'>
             <img className='section__image' src={CHINESE1} alt=''></img>
@@ -118,7 +118,7 @@ const Container = () => {
       </div>
 
       <div className='section__area2'>
-        <span className='section__title'> Section Title 2 </span>
+        <span className='section__title'> {t('p1.section2')} </span>
         <div className='section__grid'>
           <div className='section__square'>
             <img className='section__image' src={JAPANESE1} alt=''></img>
@@ -136,7 +136,7 @@ const Container = () => {
       </div>
 
       <div className='section__area3'>
-        <span className='section__title'> Section Title 3 </span>
+        <span className='section__title'> {t('p1.section3')} </span>
         <div className='section__grid'>
           <div className='section__square'>
             <img className='section__image' src={AMERICAN1} alt=''></img>
