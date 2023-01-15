@@ -1,0 +1,54 @@
+.body__container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-image: linear-gradient(var(--menu-bg), var(--light-menu-bg));
+}
+
+.body__icon {
+    width: 6rem;
+    margin-left: 30%;
+    height: auto;
+}
+
+.body__right {
+    width: 100%;
+}
+
+.body__cover {
+    width: 100%;
+    height: auto;
+}
+
+.body__left {
+    text-align: left;
+    width: 25%;
+}
+
+.body__desc {
+    padding-left: 8%;
+    max-width: 80%;
+    font-size: 1.6rem;
+    color:  var(--light-text);
+}
+
+.body__buttons {
+    text-align: center;
+}
+
+.body__button1 {
+    background-color: var(--light-text);
+    color: var(--menu-bg);
+    border-color: transparent;
+    width: 85%;
+    padding: 1rem 2rem;
+}
+
+.body__button2 {
+    background-color: var(--menu-bg);
+    border-color: var(--light-text);
+    color: var(--light-text);
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+}

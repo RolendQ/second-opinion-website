@@ -1,0 +1,19 @@
+:root{
+    /* Theme 1 */
+    --light-menu-bg: #e2147e;
+    --menu-bg: rgb(142,11,79);
+    --light-text: #ffffff;
+    --dark-text: #000000;
+    --page-bg: #f8e0ee;
+    --input: #e8e8e8;
+    white-space: pre-line;
+}
+
+.page{
+    background-color: var(--page-bg);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
